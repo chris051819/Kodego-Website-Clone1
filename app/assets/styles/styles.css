@@ -1,3 +1,42 @@
-body {
-    color: orange;
+@import "normalize.css";
+@import "./modules/_container";
+
+
+
+a,
+a:active {
+    text-decoration: none;
+    color: inherit;
 }
+
+
+.nav {
+    float: right;
+}
+
+.nav li {
+    display: inline-block;
+    margin-right: 1.5em;
+}
+
+.user-links {
+    float: right;
+    padding-top: 1em;
+    padding-left: 2em;
+    padding-right: 2em;
+}
+    .user-links a{
+        float: right;
+
+        padding-right: 2em;
+
+}
+
+.container {
+    width: 85%;
+    margin: auto;
+    border: 1px solid black;
+    padding-right: 3em;
+}
+
+
