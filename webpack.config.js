@@ -1,8 +1,3 @@
-<<<<<<< HEAD
-module.exports = {
-    entry:"./app/assets/scripts/App.js"
-}
-=======
 const path = require('path')
 
 const postCSSPlugins = [
@@ -42,4 +37,3 @@ module.exports = {
     ]
   }
 }
->>>>>>> header-section
