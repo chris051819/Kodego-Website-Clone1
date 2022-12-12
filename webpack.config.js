@@ -28,11 +28,12 @@ module.exports = {
     rules: [
       {
         test: /\.css$/i,
-        use: ["style-loader", "css-loader", {
+        use: ["style-loader", "css-loader?url=false", {
           loader: "postcss-loader", options: {
             postcssOptions: { plugins: postCSSPlugins }
           }
-        }]
+        }
+      ]
       }
     ]
   }
