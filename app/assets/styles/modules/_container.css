@@ -2,12 +2,11 @@
   width: 85%;
   margin: auto;
 
-
   &--padded {
     padding: 1.25rem;
   }
-}
 
-&--wide {
-  width: 90%;
+  &--wide {
+    width: 90%;
+  }
 }
